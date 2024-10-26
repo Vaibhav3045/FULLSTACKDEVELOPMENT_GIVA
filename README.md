@@ -33,12 +33,12 @@ The project is structured to keep the frontend and backend separate. This divisi
 The backend handles all CRUD operations. Each route (GET, POST, PUT, DELETE) is designed to interact with the PostgreSQL database, allowing the app to dynamically manage product data.
 The database is set up with a table for products, where each product has a unique ID, name, description, price, and quantity. This table structure is ideal for managing a wide range of product types while ensuring data consistency.
 
-2)Frontend (React):
+2) Frontend (React):
 
 The React frontend provides a simple and intuitive user interface. Users can view a list of products, and interact with buttons to add, edit, or delete entries.
 React’s state management keeps the UI updated with the latest data. When changes are made (like adding or deleting a product), the frontend re-fetches the latest product list to reflect these changes immediately.
 
-3)Integration:
+3) Integration:
 
 The backend serves as an API, while the frontend uses Axios to communicate with it. This setup allows for seamless data exchange between the user interface and the database.
 When a user performs an action (e.g., adding a new product), the frontend sends a request to the backend API, which processes the request, updates the database, and sends a response back to the frontend. This response is used to update the displayed data.
