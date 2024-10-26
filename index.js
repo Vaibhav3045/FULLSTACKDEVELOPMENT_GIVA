@@ -5,7 +5,7 @@ const { Pool } = require('pg');
 
 const PORT =  5000;
 var corsoption = {
-    origin: 'http://localhost:5174',
+    origin: 'https://cozy-pixie-f782a1.netlify.app/',
   };
 
   const app = express();
