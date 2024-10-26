@@ -4,8 +4,11 @@ This project is a Product Management System that allows users to add, view, edit
 # Technologies Used
 
 Backend: Node.js, Express
+
 Database: PostgreSQL
+
 Frontend: React
+
 Other: Axios (for HTTP requests), dotenv (for environment configuration), and Bootstrap (for basic styling)
 
 # Features
