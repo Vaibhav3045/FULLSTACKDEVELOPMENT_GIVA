@@ -5,7 +5,7 @@ const { Pool } = require('pg');
 
 const PORT =  5000;
 var corsoption = {
-    origin: 'https://fullstackdevelopment-giva.onrender.com',
+    origin: 'http://localhost:5174',
   };
 
   const app = express();
