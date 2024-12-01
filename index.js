@@ -8,9 +8,9 @@ var corsoption = {
     origin: 'https://fullstackdevelopment-giva.onrender.com',
   };
 
-  const app = express();
-  app.use(cors());
-  app.use(express.json())
+const app = express();
+app.use(cors());
+app.use(express.json())
 
 const pool = new Pool({
     connectionString: 'postgresql://product_b13u_user:fzfoWZavttYNji9wWcUR03Zw2YznfPqB@dpg-ct624q88fa8c73c3qe7g-a.singapore-postgres.render.com/product_b13u',  
