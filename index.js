@@ -9,7 +9,7 @@ var corsoption = {
   };
 
   const app = express();
-  app.use(cors());
+  app.use(cors(corsoption));
   app.use(express.json())
 
 const pool = new Pool({
